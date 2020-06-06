@@ -1,0 +1,265 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+
+.teamDetails {
+  .container {
+    max-width: 700px;
+    margin: 0px auto;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
+  }
+
+  .row {
+    @include ms-Grid-row;
+    @include ms-fontColor-white;
+    background-color: rgba(0, 0, 0, .6);
+    padding: 20px;
+  }
+
+  .column {
+    @include ms-Grid-col;
+    @include ms-lg10;
+    @include ms-xl8;
+    @include ms-xlPush2;
+    @include ms-lgPush1;
+  }
+
+  .title {
+    @include ms-font-xl;
+    @include ms-fontColor-white;
+  }
+
+  .subTitle {
+    @include ms-font-l;
+    @include ms-fontColor-white;
+  }
+
+  .description {
+    @include ms-font-l;
+    @include ms-fontColor-white;
+  }
+
+  .innovationHeaderimg {
+    background-blend-mode: color-burn;
+    width: 42vw;
+    height: 45vh;
+    margin-left: 2vw;
+    filter: invert(1);
+    margin-top: 10vh;
+  }
+
+  .teamsdiv {
+    color: #fff;
+    position: relative;
+    margin-top: 4vh;
+    background-color: rgba(0, 0, 0, .6);
+    padding: 5vh;
+    border-radius: 5px;
+    width: 97% !important;
+  }
+
+  .teamsdiv H2 {
+    font-size: 2vw;
+    font-weight: 600;
+    font-style: normal;
+    font-variant: all-small-caps;
+    border-left: 5px solid #ffe600;
+    padding-left: 10px;
+  }
+
+  .setWin {
+    height: 15vh;
+    margin-top: 8vh;
+  }
+
+  .button {
+    // Our button
+    text-decoration: none;
+    height: 32px;
+
+    // Primary Button
+    min-width: 80px;
+    background-color: $ms-color-themePrimary;
+    border-color: $ms-color-themePrimary;
+    color: $ms-color-white;
+
+    // Basic Button
+    outline: transparent;
+    position: relative;
+    font-family: "Segoe UI WestEuropean", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: $ms-font-size-m;
+    font-weight: $ms-font-weight-regular;
+    border-width: 0;
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+    padding: 0 16px;
+
+    .label {
+      font-weight: $ms-font-weight-semibold;
+      font-size: $ms-font-size-m;
+      height: 32px;
+      line-height: 32px;
+      margin: 0 4px;
+      vertical-align: top;
+      display: inline-block;
+    }
+  }
+
+  //Custom classes starts here
+  .positions {
+    width: 100%;
+    position: absolute;
+    z-index: 99;
+  }
+
+  .margins {
+    margin-top: 0vh;
+  }
+
+  .introdiv {
+    position: relative;
+    display: flex;
+    min-height: 100vh;
+    background-color: #333333;
+    background-image: url('https://sites.ey.com/sites/ProcurementInnovationLab/SiteAssets/ProcurementInnovationLab/Images/TeamBG.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+  .nopadding {
+    padding: 0px;
+  }
+
+  .bgcolor {
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+
+  .intropageHead {
+    color: #fff;
+    position: relative;
+    margin-top: 15vh;
+    background-color: rgba(0, 0, 0, .6);
+    padding: 5vh;
+    border-radius: 5px;
+    margin-bottom: 0vw;
+    width: 97% !important;
+  }
+
+  .introHeaderQuote {
+    margin-left: 3.5vw;
+    /* margin-top: 24vh; */
+    padding: 8vh 1vw 0vh 1vw;
+    border: 1px solid white;
+    border-radius: 5px;
+  }
+
+  .smpadding {
+    padding: 1vh 2vw;
+    font-size: 1.3vw;
+  }
+
+  .smpaddingHeader {
+    padding: 1vh 1vw;
+    font-size: 1.3vw;
+  }
+
+  .smmargintop {
+    margin-top: 4vh;
+  }
+
+  .teamheaders {
+    margin-top: 0vh;
+  }
+
+  .intropageHead H2 {
+    font-size: 2vw;
+    font-weight: 600;
+    font-style: normal;
+    font-variant: all-small-caps;
+    border-left: 5px solid #ffe600;
+    padding-left: 10px;
+  }
+
+  .profileimage {
+    height: 25vh;
+    background-color: black;
+    border-radius: 50%;
+  }
+
+  .profilewrapper {
+    display: flex;
+    padding: 10px 5px 10px 0px;
+  }
+
+  .profileleaderimage {
+    margin-top: 4vh;
+    height: 35vh;
+    background-color: black;
+    border-radius: 50%;
+  }
+
+  .profilenetworkimage {
+    height: 15vh;
+    width: 8vw;
+    background-color: #000;
+    border-radius: 50%;
+  }
+
+  .tcenter {
+    text-align: center;
+  }
+
+  .profiletitle {
+    color: #ffe600;
+    text-align: left;
+    padding: 1.5vh 0vw 0vh 0vw;
+    font-size: 1.1vw;
+  }
+
+  .profiletitle a {
+    color: #ffe600 !important;
+  }
+
+  .profiletitle a:hover {
+    text-decoration: underline !important;
+  }
+
+  .leadtitle {
+    color: #ffe600;
+    text-align: center;
+    padding: 1vh 0vw 0vh 0vw;
+    font-size: 1.2vw;
+  }
+
+  .leadtitle a {
+    color: #ffe600 !important;
+  }
+
+  .leadtitle a:hover {
+    text-decoration: underline !important;
+  }
+
+  .profiledesgn {
+    font-size: 1vw;
+    text-align: left;
+    color: white;
+  }
+
+  .leadDesign {
+    font-size: 1vw;
+    text-align: center;
+    color: white;
+  }
+
+  .profileteam {
+    font-size: 1vw;
+    text-align: center;
+    color: gray;
+  }
+
+  .teamMargin {
+    margin-top: 2vh;
+  }
+}

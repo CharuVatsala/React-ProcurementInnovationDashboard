@@ -1,0 +1,334 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+
+.commentsWrapper {
+  display: none;
+}
+
+.homeComponent {
+  z-index: 1;
+  background-color: #333333;
+  min-height: 100vh;
+
+  .container {
+    max-width: 700px;
+    margin: 0px auto;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
+  }
+
+  .processHeader {
+    margin-left: -118vh;
+    color: white;
+    font-size: 1.5vw;
+  }
+
+  .svImgFooter {
+    padding-top: 0vh;
+    color: white;
+    padding-right: 0.2vw;
+    font-size: 1.1vw;
+    margin-left: 12vw;
+  }
+
+  .row {
+    @include ms-Grid-row;
+    @include ms-fontColor-white;
+    background-color: $ms-color-themeDark;
+    padding: 20px;
+  }
+
+  .column {
+    @include ms-Grid-col;
+    @include ms-lg10;
+    @include ms-xl8;
+    @include ms-xlPush2;
+    @include ms-lgPush1;
+  }
+
+  .title {
+    @include ms-font-xl;
+    @include ms-fontColor-white;
+  }
+
+  .subTitle {
+    @include ms-font-l;
+    @include ms-fontColor-white;
+  }
+
+  .description {
+    @include ms-font-l;
+    @include ms-fontColor-white;
+  }
+
+  .processText {
+    margin-left: 0vw;
+  }
+
+  .button {
+    // Our button
+    text-decoration: none;
+    height: 32px;
+
+    // Primary Button
+    min-width: 80px;
+    background-color: $ms-color-themePrimary;
+    border-color: $ms-color-themePrimary;
+    color: $ms-color-white;
+
+    // Basic Button
+    outline: transparent;
+    position: relative;
+    font-family: "Segoe UI WestEuropean", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: $ms-font-size-m;
+    font-weight: $ms-font-weight-regular;
+    border-width: 0;
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+    padding: 0 16px;
+
+    .label {
+      font-weight: $ms-font-weight-semibold;
+      font-size: $ms-font-size-m;
+      height: 32px;
+      line-height: 32px;
+      margin: 0 4px;
+      vertical-align: top;
+      display: inline-block;
+    }
+  }
+
+  //Custom classes starts here
+  .positions {
+    width: 100%;
+    position: absolute;
+    z-index: 99;
+  }
+
+  .introdiv {
+    position: absolute;
+    display: flex;
+    min-height: 100vh;
+    background-size: contain;
+    background-color: transparent;
+    background-image: url('https://sites.ey.com/sites/ProcurementInnovationLab/SiteAssets/ProcurementInnovationLab/Images/butterfly.png');
+    background-repeat: no-repeat;
+    top: 0.1vw;
+    z-index: 99;
+  }
+
+  .bgcolor {
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+
+  .intropageHead {
+    color: #fff;
+    margin-left: 5.5vw;
+    position: relative;
+    top: 15vh;
+    margin-right: 6vw;
+  }
+
+  .intropageHead H2 {
+    font-size: 2vw;
+    font-weight: 600;
+    font-style: normal;
+    font-variant: all-small-caps;
+    border-left: 5px solid #ffe600;
+    padding-left: 10px;
+  }
+
+  .processHead {
+    color: #fff;
+    margin-left: 5.5vw;
+    position: relative;
+    top: 15vh;
+    margin-right: 6vw;
+  }
+
+  .processMargin{
+    padding: 0vh 0vw !important;
+  }
+
+  .processHead H2 {
+    font-size: 2vw;
+    font-weight: 600;
+    font-style: normal;
+    font-variant: all-small-caps;
+    border-left: 5px solid #ffe600;
+    padding-left: 10px;
+
+  }
+
+  .btnalign {
+    margin-right: 8%;
+  }
+
+  .nopadding {
+    padding: 2vh 1vw 0vh 2.5vw !important;
+    /* font-size: 1.3vw; */
+  }
+
+  .intropagecontent {
+    color: white;
+    font-size: 20px;
+    margin-left: 10vh;
+    margin-top: -40vh;
+  }
+
+  .intropagecontent p {
+    color: white;
+    font-size: 20vh;
+  }
+
+  .btnContactteam {
+    background-color: #ffe600 !important;
+    border: none !important;
+    color: black !important;
+    padding: 7px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 2vh;
+  }
+
+  .fright {
+    float: right;
+  }
+
+  .tright {
+    text-align: right;
+    top: 15vh;
+    margin-left: 4vw;
+  }
+
+  .btnContactteam a {
+    background-color: #ffe600 !important;
+  }
+
+  .btnContactteam:hover {
+    font-size: 2.1vh;
+    color: gray;
+  }
+
+  .downArrow {
+    bottom: 10px;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    margin-left: -79.75vw;
+  }
+
+  .upArrow {
+    width: 100%;
+    text-align: center;
+    clear: both;
+    top: 86%;
+    position: absolute;
+    padding-left: 41px;
+    z-index: 99999;
+    text-align: center;
+  }
+
+  .downArrow img,
+  .upArrow img {
+    height: 6vh;
+    cursor: pointer;
+  }
+
+  .downArrowNavigator {
+    font-size: 18pvh !important;
+    text-align: center;
+    color: #fff;
+    font-size: 2vh;
+    cursor: pointer;
+  }
+
+  .upArrowNavigator {
+    font-size: 18pvh !important;
+    text-align: center;
+    color: #fff;
+    font-size: 2vh;
+    cursor: pointer;
+  }
+
+  .svgdiv {
+    position: relative;
+    display: flex;
+    font-weight: 400;
+    min-height: 100vh;
+    background-color: #333333;
+    background-image: url('https://sites.ey.com/sites/ProcurementInnovationLab/SiteAssets/ProcurementInnovationLab/Images/butterfly.png');
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    background-size: contain;
+  }
+
+  .svgcontainer {
+    margin-left: 4vw;
+    top: 16vh;
+    text-align: center;
+  }
+
+  .secondHead {
+    color: white;
+    margin-left: 5vw;
+    padding-top: 10vh;
+  }
+
+  .secondHead h2 {
+    font-size: 2vw !important;
+    font-weight: 600;
+    font-style: normal;
+    border-left: 5px solid #ffe600;
+  }
+
+  .secondHead SPAN {
+    padding-left: 10px;
+  }
+
+  .secondHeadcontent {
+    color: white;
+    margin-left: 5vw;
+    padding-top: 10vh;
+  }
+
+  .listitemsactivelist {
+    position: absolute;
+    color: #ffe600;
+    left: -35px;
+    top: 45%;
+    list-style: none;
+    list-style-position: inside;
+    cursor: pointer;
+  }
+
+  .footerText {
+    text-align: right;
+    padding: 2vh 1.8vw 0 0 !important;
+    font-size: 1.2vw;
+    color: white;
+    margin-top: 6vh;
+    margin-left: 4.5vw;
+  }
+
+
+  .footerName {
+    text-align: right;
+    padding: 0vh 1.8vw 0 0 !important;
+    font-size: 1.1vw;
+    color: #ffe600;
+    margin-left: 42vw;
+  }
+
+  @media screen and (-webkit-min-device-pixel-ratio:0) {
+    .intropageHead H2 {
+      font-size: 2vw;
+    }
+  }
+
+  @supports (-ms-ime-align:auto) {
+    .intropageHead H2 {
+      font-size: 2vw;
+    }
+  }
+}

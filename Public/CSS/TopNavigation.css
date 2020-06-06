@@ -1,0 +1,327 @@
+.background-cover {
+    height: 800px;
+    width: 100%;
+    background-color: #ffe600;
+}
+
+.icon-cover {
+    color: black;
+    margin-right: 5px;
+}
+
+.dropdown-item a, .dropdown-item a:hover, .dropdown-item a:visited, .dropdown-item a:active {
+    color: black;
+}
+
+.imageDiv {
+    padding: 30px 25px 30px 25px;
+    border-right: 1px solid rgb(66, 70, 89, 1);
+    border-left: 1px solid rgb(66, 70, 89, 1);
+}
+
+.imageDiv:hover {
+    border-bottom: 3px solid #ffe600;
+}
+
+.quicklink-image-cover {
+    padding-bottom: 10px;
+}
+
+.quicklinks-cover {
+    float: right;
+    right: 10px;
+    height: 35%;
+    width: 5%;
+    position: absolute;
+    text-align: center;
+    bottom: 10px;
+    z-index: 9;
+}
+
+.image-div-cover span {
+    display: none
+}
+
+.image-div-cover:hover img {
+    position: relative;
+}
+
+.image-div-cover:hover span {
+    display: block;
+    color: white;
+    border: 1px solid black;
+    background: black;
+    padding: 10%;
+    position: absolute;
+    right: 100px;
+    width: 10vw;
+    display: initial;
+    text-align: center;
+}
+
+.image-div-cover:hover span:before {
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-left: 8px solid black;
+    right: -8px;
+    top: 7px;
+}
+
+.navbar-cover {
+    padding: 0px !important;
+    height: 10vh;
+    width: 91%;
+}
+
+.siteTitle {
+    color: white;
+    margin-top: -5% !important;
+    margin-left: 10% !important;
+}
+
+.navbar-brand-style {
+    display: flex !important;
+    margin-left: 10px;
+    padding-top: 2vh;
+}
+
+.navbar-brand-head-style {
+    font-size: 2vw !important;
+    font-variant: all-small-caps;
+    font-weight: 400;
+    font-family: EyInterstate;
+    align-self: flex-end !important;
+    color: white !important;
+    border-left: 1px solid grey;
+    padding: 15px;
+}
+
+.navbar-collapse-cover {
+    margin-left: 150vh;
+    margin-top: -1%;
+}
+
+.navbar-drop-style {
+    margin-right: 40px;
+    width: 22%;
+    left: 30%;
+}
+
+.navbar-drop-style #collasible-nav-dropdown {
+    color: #ffff;
+    font-size: 10px;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    flex-direction: row-reverse;
+}
+
+.nav-dropdown {
+    color: white;
+}
+
+.image-cover {
+    float: left;
+    height: 50px;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+#basic-navbar-nav {
+    position: relative;
+    width: 100%;
+    /* margin-left: 25vw; */
+    margin-left: 29vw;
+    margin-top: -1vh;
+}
+
+.fixed-bottom, .fixed-top {
+    position: absolute;
+}
+
+#basic-navbar-nav .link-style {
+    font-family: 'EYInterstate';
+    color: #ffff;
+    font-weight: bold;
+    font-size: 1.1vw;
+    text-align: center;
+    text-decoration: none;
+}
+
+#basic-navbar-nav a.link-style::before {
+    height: 3px solid red;
+    width: 100%;
+}
+
+.header-font {
+    font-family: 'EYInterstate';
+    font-weight: bold;
+    font-style: normal;
+    font-size: 13px;
+    color: #333333;
+    text-align: center;
+    line-height: normal;
+}
+
+.active {
+    border-top: '5px solid yellow !important';
+}
+
+#basic-navbar-nav .navbar-nav {
+    height: 100%;
+}
+
+#basic-navbar-nav .navbar-nav a.link-style {
+    width: max-content;
+    color: white !important;
+    padding: 22px 10px 10px 10px;
+    border-bottom: 3px solid transparent;
+}
+
+#basic-navbar-nav .navbar-nav a.link-style:hover {
+    background: transparent;
+    border-bottom: 3px solid #ffe600;
+}
+
+#basic-navbar-nav .navbar-nav a.link-style-active {
+    background: transparent;
+    border-bottom: 3px solid #ffe600;
+}
+
+#basic-navbar-nav .navbar-drop-style a div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.8vw;
+    color: white;
+}
+
+#basic-navbar-nav .navbar-drop-style a span {
+    display: inline-block;
+    transform: rotate(180deg);
+    font-size: 1.5vw;
+}
+
+#basic-navbar-nav .navbar-drop-style a.nav-link {
+    color: white;
+    margin-top: 25px;
+    border: 1px solid white;
+    padding: 0 8px;
+    margin-top: 13px;
+}
+
+#basic-navbar-nav .navbar-drop-style a.dropdown-toggle::after {
+    display: none;
+}
+
+#basic-navbar-nav .navbar-drop-style .dropdown-menu {
+    color: #cccc;
+    font-size: 0.75vw;
+    background-clip: none;
+    border: 0px;
+    border-radius: 0px;
+    min-width: 0px;
+    line-height: 30px;
+    width: 100%;
+    margin: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+#basic-navbar-nav .navbar-drop-style a.dropdown-item {
+    padding: 0px;
+    margin-right: 10px;
+    margin-left: 10px;
+    width: auto;
+    background-color: white !important;
+    color: black !important;
+}
+
+#basic-navbar-nav .navbar-drop-style a.dropdown-item:last-of-type {
+    background: none !important;
+    border-bottom: none !important;
+}
+
+#basic-navbar-nav .navbar-nav a.link-style.active:before {
+    color: red;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link.link-style {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.DboardImg{
+    height: 3vh;
+    width: 3vh;
+    margin-top: 3vh;
+    filter: invert(1);
+    margin-left: 1vw;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    #basic-navbar-nav {
+        position: relative;
+        width: 100%;
+        /* margin-left: 25vw; */
+        margin-left: 32vw;
+        margin-top: -1vh;
+    }
+    .navbar-brand-head-style {
+        font-size: 2vw !important;
+    }
+}
+
+@supports (-ms-ime-align:auto) {
+    #basic-navbar-nav {
+        position: relative;
+        width: 100%;
+        margin-left: 32vw;
+        margin-top: -1vh;
+    }
+    .navbar-brand-head-style {
+        font-size: 1.7vw !important;
+    }
+}
+
+@media only screen and (max-width: 1900px) and (min-width: 1536px) {
+    .image-cover {
+        height: 5vh;
+    }
+    .image-home {
+        height: 4vh;
+    }
+    .navbar-drop-style {
+        left: 28% !important;
+    }
+    .navbar-cover {
+        height: 10vh !important;
+    }
+    .imageDiv {
+        padding: 25px 25px;
+    }
+}
+
+@media only screen and (max-width: 1535px) {
+    .navbar-drop-style {
+        left: 22% !important;
+    }
+    .image-cover {
+        height: 6vh;
+    }
+    .image-home {
+        height: 3vh;
+    }
+    .navbar-cover {
+        height: 10vh !important;
+    }
+    .imageDiv {
+        padding: 19px;
+    }
+}

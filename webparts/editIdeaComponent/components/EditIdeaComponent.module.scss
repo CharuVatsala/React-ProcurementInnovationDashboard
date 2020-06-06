@@ -1,0 +1,331 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+
+.editIdeaComponent {
+  .container {
+    max-width: 700px;
+    margin: 0px auto;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
+  }
+
+  .accDeniedHeader {
+    color: white;
+    margin-top: 20vh;
+    font-size: 2vw;
+    margin-left: 1vw;
+  }
+
+  .accDeniedText {
+    margin-top: 30vh;
+    font-size: 1.5vw;
+    color: white;
+    margin-left: -15vw;
+  }
+
+  .rightForm {
+    margin-bottom: 4vh;
+  }
+  
+  .row {
+    @include ms-Grid-row;
+    @include ms-fontColor-white;
+    background-color: $ms-color-themeDark;
+    padding: 20px;
+  }
+
+  .column {
+    @include ms-Grid-col;
+    @include ms-lg10;
+    @include ms-xl8;
+    @include ms-xlPush2;
+    @include ms-lgPush1;
+  }
+
+  .title {
+    @include ms-font-xl;
+    @include ms-fontColor-white;
+  }
+
+  .subTitle {
+    @include ms-font-l;
+    @include ms-fontColor-white;
+  }
+
+  .description {
+    @include ms-font-l;
+    @include ms-fontColor-white;
+  }
+
+  .button {
+    // Our button
+    text-decoration: none;
+    height: 32px;
+
+    // Primary Button
+    min-width: 80px;
+    background-color: $ms-color-themePrimary;
+    border-color: $ms-color-themePrimary;
+    color: $ms-color-white;
+
+    // Basic Button
+    outline: transparent;
+    position: relative;
+    font-family: "Segoe UI WestEuropean", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: $ms-font-size-m;
+    font-weight: $ms-font-weight-regular;
+    border-width: 0;
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+    padding: 0 16px;
+
+    .label {
+      font-weight: $ms-font-weight-semibold;
+      font-size: $ms-font-size-m;
+      height: 32px;
+      line-height: 32px;
+      margin: 0 4px;
+      vertical-align: top;
+      display: inline-block;
+    }
+  }
+
+  //Custom classes starts here
+  .positions {
+    width: 100%;
+    position: absolute;
+  }
+
+  .introdiv {
+    position: relative;
+    display: flex;
+    min-height: 100vh;
+    background-color: #333333;
+    background-image: url('https://sites.ey.com/sites/ProcurementInnovationLab/SiteAssets/ProcurementInnovationLab/Images/SubmitBG.jpg');
+    /* background-blend-mode: color-burn; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+  }
+
+  .PageHeader {
+    color: white;
+    padding: 0px 0px 20px 15px;
+    margin-top: 4vh
+  }
+
+  .PageHeader H2 {
+    text-transform: uppercase;
+  }
+
+  .ideadetails {
+    margin-left: 2.2vw;
+  }
+
+  .ideadetails INPUT {
+    width: 50%;
+    border-radius: 5px;
+    margin-bottom: 5vh !important;
+  }
+
+  .ideadetails .smmargin {
+    margin-bottom: 5px !important;
+  }
+
+  .ideadetails textarea {
+    border-radius: 5px;
+    width: 94.3%;
+    margin-bottom: 5vh;
+    height: 6vw;
+  }
+
+  .outcomesection {
+    margin-left: 0.5vh;
+  }
+
+  .fileBox {
+    width: 70% !important;
+    margin-top: 3vh;
+  }
+
+  .infy {
+    margin-left: -1vw;
+  }
+
+  .fileDisplay {
+    background-color: rgba(46, 46, 45, .6);
+    border: 1px solid grey;
+    padding: 2vh 0.5vw;
+    margin-bottom: 1vh;
+    margin-top: 1vh;
+    font-size: 1.1vw;
+    border-radius: 2px;
+  }
+
+  .ideasection {
+    margin-top: 13vh;
+    width: 100%;
+    color: white;
+  }
+
+  .ideasection INPUT {
+    width: 50%;
+    border-radius: 5px;
+  }
+
+  .ideasection H2 {
+    font-size: 1.5vw !important;
+    font-weight: 600;
+    font-style: normal;
+    border-left: 5px solid #ffe600;
+    padding-left: 12px;
+  }
+
+  .ideasection fieldset {
+    background-color: rgba(0, 0, 0, .6);
+    border-radius: 5px;
+    border: 1px solid #fff;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    width: 96% !important;
+  }
+
+  .nopadding {
+    padding: 0px !important;
+  }
+
+  .ideasection legend {
+    border: 1px solid #fff;
+    padding: .5vh .5vw;
+    background: #ffe600;
+    border-radius: 3px;
+    font-size: 2vh;
+    width: 30%;
+    margin-left: 1vw;
+    color: #333333;
+  }
+
+  .ideasection select {
+    width: 50%;
+    border-radius: 5px;
+    padding: 5px;
+  }
+
+  .fleft {
+    float: left;
+  }
+
+  .txtideatitle {
+    border-radius: 5px !important;
+    width: 50% !important;
+
+  }
+
+  .Infocircle {
+    color: #ffe600;
+  }
+
+  input[type=checkbox],
+  input[type=radio] {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 10px 12px 0px 0px;
+    width: 2% !important;
+  }
+
+  .smmargin {
+    margin-top: 3vh;
+  }
+
+  .statusdone {
+    padding: 5px 0px 5px 12px;
+    color: #fff;
+  }
+
+  .statuscurrent {
+    padding: 5px 0px 5px 12px;
+    color: #ffe600;
+  }
+
+  .statusnotdone {
+    padding: 5px 0px 5px 12px;
+    color: gray;
+  }
+
+  .statuscheck {
+    float: right;
+    padding-right: 10px;
+  }
+
+  .statusuncheck {
+    float: right;
+    padding-right: 10px;
+  }
+
+  .textarea {
+    width: 97%;
+    height: 12vh;
+    border-radius: 5px;
+  }
+
+  .imgsvg {
+    height: 12px;
+    width: 15px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  .alignright {
+    text-align: right;
+    margin-left: 5vw;
+  }
+
+
+  .btnSubmit {
+    background-color: #ffe600 !important;
+    border: none !important;
+    color: #000 !important;
+    padding: 7px;
+    border-radius: 5px;
+    font-family: EyInterstate !important;
+    margin-right: 1vw;
+    font-size: 2.5vh;
+    width: 10vw;
+  }
+
+  .btnSubmit:hover {
+    background-color: rgb(250, 250, 121) !important;
+    color: black !important;
+  }
+
+  .btnCancel {
+    background-color: grey !important;
+    border: none !important;
+    color: #000 !important;
+    padding: 7px;
+    border-radius: 5px;
+    font-family: EyInterstate !important;
+    margin-left: 1vw;
+    margin-right: 1.3vw;
+    font-size: 2.5vh;
+    width: 10vw;
+  }
+  .noaccess{
+    font-size: 2vw;
+    margin-top: 10vw;
+    color: white;
+  }
+  .noaccicon{
+    color: red;
+  }
+
+  .btnCancel:hover {
+    background-color: #000000;
+    color: white !important;
+  }
+}

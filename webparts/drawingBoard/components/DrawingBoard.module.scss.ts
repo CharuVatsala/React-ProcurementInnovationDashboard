@@ -1,0 +1,45 @@
+/* tslint:disable */
+require("./DrawingBoard.module.css");
+const styles = {
+  drawingBoard: 'drawingBoard_37f481e1',
+  forwardPhase: 'forwardPhase_37f481e1',
+  backPhase: 'backPhase_37f481e1',
+  phaseIcon: 'phaseIcon_37f481e1',
+  phaseNavigator: 'phaseNavigator_37f481e1',
+  backicon: 'backicon_37f481e1',
+  IdeaNav: 'IdeaNav_37f481e1',
+  topControlsNav1: 'topControlsNav1_37f481e1',
+  homediv: 'homediv_37f481e1',
+  positions: 'positions_37f481e1',
+  noresult: 'noresult_37f481e1',
+  container: 'container_37f481e1',
+  bgcolor: 'bgcolor_37f481e1',
+  breadcrumb: 'breadcrumb_37f481e1',
+  searchAlign: 'searchAlign_37f481e1',
+  nulIdea: 'nulIdea_37f481e1',
+  mdmargintop: 'mdmargintop_37f481e1',
+  smleftmargin: 'smleftmargin_37f481e1',
+  alignment: 'alignment_37f481e1',
+  sliderParent: 'sliderParent_37f481e1',
+  sliderimage: 'sliderimage_37f481e1',
+  slidercontainer: 'slidercontainer_37f481e1',
+  carddisplay: 'carddisplay_37f481e1',
+  cardlink: 'cardlink_37f481e1',
+  carddetails: 'carddetails_37f481e1',
+  phaseinfo: 'phaseinfo_37f481e1',
+  nopadding: 'nopadding_37f481e1',
+  creatorinfo: 'creatorinfo_37f481e1',
+  slidertext: 'slidertext_37f481e1',
+  newicon: 'newicon_37f481e1',
+  row: 'row_37f481e1',
+  column: 'column_37f481e1',
+  'ms-Grid': 'ms-Grid_37f481e1',
+  title: 'title_37f481e1',
+  subTitle: 'subTitle_37f481e1',
+  description: 'description_37f481e1',
+  button: 'button_37f481e1',
+  label: 'label_37f481e1'
+};
+
+export default styles;
+/* tslint:enable */

@@ -1,0 +1,203 @@
+.sliderParent {
+  padding: 0 80px !important;
+}
+
+.dynamiccontent input {
+  width: 50% !important;
+}
+
+.nopadding {
+  padding: 0px !important;
+}
+
+.btnPrimary {
+  cursor: pointer;
+}
+
+.btnclose {
+  background-color: darkgray !important;
+  border: none !important;
+  color: #000 !important;
+  padding: 7px;
+  border-radius: 5px;
+  font-family: EyInterstate !important;
+  margin-left: 1vw;
+  margin-right: 1.3vw;
+  font-size: 2.5vh;
+  width: 10vw;
+}
+
+.btnclose:hover {
+  background-color: #000000 !important;
+  color: white !important;
+  cursor: pointer;
+}
+
+.modal {
+  top: 25vh !important;
+}
+
+.modal-footer {
+  border-top: none !important;
+  padding: 0px !important;
+}
+
+.modal-header {
+  padding: 1vh !important;
+  background-color: #ffe600 !important;
+}
+
+.modal-header H4 {
+  font-size: 1rem !important;
+}
+
+.root-91 p {
+  display: none;
+}
+
+.modal-body {
+  padding: 0.5vw !important;
+}
+
+.topControlsNav {
+  display: flex;
+  margin-top: 1vw;
+}
+
+.topControlsNavRightSide {
+  display: flex;
+  padding: 0 80px !important;
+  align-items: center;
+}
+
+.slick-prev {
+  left: -40px !important;
+}
+
+.slick-slider {
+  min-height: 60vh;
+  margin-top: 0vh;
+}
+
+.acceleraterSliderWrapper {
+  padding: 0 80px !important;
+}
+
+.hideicons {
+  display: none;
+}
+
+.hidepause {
+  display: none;
+}
+
+.displaypause {
+  display: block;
+  float: right;
+  font-size: .8vw;
+  /* margin-top: -4vh; */
+  color: rgb(157, 47, 66);
+  border: 1px solid rgb(157, 47, 66);
+  padding: 0.5vh 0.5vw;
+  background-color: rgb(0, 0, 0, 0.6);
+  border-radius: 5px;
+  /* margin-right: 1vw; */
+}
+
+.displayicons {
+  display: block;
+  text-align: right;
+  color: #fff;
+  font-size: 1vw;
+  /* margin-top: -3vh; */
+}
+
+/*these 3 classes are for status on the left pane of edit/view page*/
+
+.statusdone {
+  padding: 5px 0px 5px 12px;
+  color: #ffe600;
+}
+
+.statuscurrent {
+  padding: 5px 0px 5px 12px;
+  color: white;
+}
+
+.statusgray {
+  padding: 5px 0px 5px 12px;
+  color: gray;
+}
+
+.form-check-input {
+  -ms-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  -o-transform: scale(1.5);
+  background-color: #fff !important;
+  color: #000 !important;
+  border: 1px solid #000 !important;
+}
+
+.form-control {
+  background-color: #fff !important;
+  color: #000 !important;
+  border: 1px solid #000 !important;
+}
+
+select.form-control option {
+  background-color: #fff !important;
+  color: #000 !important;
+}
+
+/*for dropdown control*/
+
+#selector .form-check-input, .form-control, select.form-control option {
+  background-color: #fff !important;
+  color: gray !important;
+}
+
+#selector.form-check-input, .form-control, select.form-control {
+  background-color: #fff !important;
+  color: gray !important;
+  border: 1px solid gray !important;
+}
+
+#selector select.form-control option {
+  background-color: #fff !important;
+  color: gray !important;
+}
+
+#selector option {
+  background-color: #fff !important;
+  color: gray !important;
+}
+
+#selector .form-check-input, .form-control {
+  border: 1px solid gray !important;
+}
+
+@media only screen and (max-width: 1535px) {
+  .acceleraterSliderWrapper {
+    padding: 0 50px !important;
+  }
+  .topControlsNavRightSide {
+    padding: 0 50px !important;
+  }
+  .form-check-input {
+    -ms-transform: scale(1);
+    -moz-transform: scale(1);
+    -webkit-transform: scale(1);
+    -o-transform: scale(1);
+  }
+}
+
+.sliderContainer .slick-dots li.slick-active button:before {
+  color: #ffe600 !important;
+  font-size: 17px !important;
+}
+
+.sliderContainer .slick-dots li button:before {
+  font-size: 12px;
+  color: white !important;
+}

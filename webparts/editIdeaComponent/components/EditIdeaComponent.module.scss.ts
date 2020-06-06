@@ -1,0 +1,47 @@
+/* tslint:disable */
+require("./EditIdeaComponent.module.css");
+const styles = {
+  editIdeaComponent: 'editIdeaComponent_ad318865',
+  container: 'container_ad318865',
+  accDeniedHeader: 'accDeniedHeader_ad318865',
+  accDeniedText: 'accDeniedText_ad318865',
+  rightForm: 'rightForm_ad318865',
+  row: 'row_ad318865',
+  column: 'column_ad318865',
+  'ms-Grid': 'ms-Grid_ad318865',
+  title: 'title_ad318865',
+  subTitle: 'subTitle_ad318865',
+  description: 'description_ad318865',
+  button: 'button_ad318865',
+  label: 'label_ad318865',
+  positions: 'positions_ad318865',
+  introdiv: 'introdiv_ad318865',
+  PageHeader: 'PageHeader_ad318865',
+  ideadetails: 'ideadetails_ad318865',
+  smmargin: 'smmargin_ad318865',
+  outcomesection: 'outcomesection_ad318865',
+  fileBox: 'fileBox_ad318865',
+  infy: 'infy_ad318865',
+  fileDisplay: 'fileDisplay_ad318865',
+  ideasection: 'ideasection_ad318865',
+  nopadding: 'nopadding_ad318865',
+  fleft: 'fleft_ad318865',
+  txtideatitle: 'txtideatitle_ad318865',
+  Infocircle: 'Infocircle_ad318865',
+  statusdone: 'statusdone_ad318865',
+  statuscurrent: 'statuscurrent_ad318865',
+  statusnotdone: 'statusnotdone_ad318865',
+  statuscheck: 'statuscheck_ad318865',
+  statusuncheck: 'statusuncheck_ad318865',
+  textarea: 'textarea_ad318865',
+  imgsvg: 'imgsvg_ad318865',
+  hidden: 'hidden_ad318865',
+  alignright: 'alignright_ad318865',
+  btnSubmit: 'btnSubmit_ad318865',
+  btnCancel: 'btnCancel_ad318865',
+  noaccess: 'noaccess_ad318865',
+  noaccicon: 'noaccicon_ad318865'
+};
+
+export default styles;
+/* tslint:enable */

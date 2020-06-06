@@ -1,0 +1,162 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+
+path[id^='Path_208']:hover {
+  fill: #ffe600 !important;
+}
+
+g[id^='Group_198']:hover {
+
+  fill: #ffe600 !important;
+
+  path[id^='Path_100'] {
+    fill: #ffe600 !important;
+  }
+
+  text[id^='WORKSHOP'] {
+    fill: black !important;
+  }
+
+}
+
+g[id^='Group_199']:hover {
+
+  fill: #ffe600 !important;
+
+  path[id^='Path_103'] {
+    fill: #ffe600 !important;
+  }
+
+  text[id^='IDEATE'] {
+    fill: black !important;
+  }
+
+}
+
+g[id^='Group_215']:hover {
+  g[id^='Group_200']:hover {
+
+    fill: #ffe600 !important;
+  }
+
+  path[id^='Path_102'] {
+    fill: #ffe600 !important;
+  }
+
+  text[id^='EVALUATE'] {
+    fill: black !important;
+  }
+
+}
+
+g[id^='Group_202']:hover {
+
+  fill: #ffe600 !important;
+
+  path[id^='Path_105'] {
+    fill: #ffe600 !important;
+  }
+
+  text[id^='DEPLOY_Onboarding'] {
+    fill: black !important;
+  }
+
+}
+
+g[id^='Group_203']:hover {
+
+  fill: #ffe600 !important;
+
+  path[id^='Path_106'] {
+    fill: #ffe600 !important;
+  }
+
+  text[id^='Run_Support'] {
+    fill: black !important;
+  }
+}
+
+g[id^='Group_201']:hover {
+
+  fill: #ffe600 !important;
+
+  path[id^='Path_104'] {
+    fill: #ffe600 !important;
+  }
+
+  text[id^='ACCELERATE'] {
+    fill: black !important;
+  }
+}
+
+g[id^='Group_189']:hover {
+  g[id^='Rectangle_172-2'] {
+    fill: #ffe600 !important;
+  }
+
+  text[id^='Project_Management'] {
+    fill: black !important;
+  }
+}
+
+g[id^='Group_190']:hover {
+  g[id^='Rectangle_172-4'] {
+    fill: #ffe600 !important;
+  }
+
+  text[id^='Innovation_Strategy'] {
+    fill: black !important;
+  }
+}
+
+g[id^='Group_191']:hover {
+  g[id^='Rectangle_172-3'] {
+    fill: #ffe600 !important;
+  }
+
+  text[id^='Transformation_Enablement'] {
+    fill: black !important;
+  }
+}
+
+g[id^='Group_192']:hover {
+  g[id^='Rectangle_172'] {
+    fill: #ffe600 !important;
+  }
+
+  text[id^='Solution_Architecture'] {
+    fill: black !important;
+  }
+}
+
+
+
+
+
+
+.svgWrapper {
+  margin-top: -10vh;
+
+  .svgSection {
+    height: 48vh;
+    width: 100vw;
+  }
+
+  tspan {
+    cursor: pointer;
+  }
+
+  @media only screen and (max-width: 1900px) and (min-width: 1535px) {
+    .svgSection {
+      height: 48vh !important;
+      width: 100vw !important;
+
+    }
+  }
+
+  @media only screen and (max-width: 1535px) {
+    .svgSection {
+      height: 48vh !important;
+      width: 100vw !important;
+    }
+  }
+}

@@ -1,0 +1,46 @@
+/* tslint:disable */
+require("./ManageMyIdea.module.css");
+const styles = {
+  managemyidea: 'managemyidea_ffa8e781',
+  forwardPhase: 'forwardPhase_ffa8e781',
+  backPhase: 'backPhase_ffa8e781',
+  phaseIcon: 'phaseIcon_ffa8e781',
+  phaseNavigator: 'phaseNavigator_ffa8e781',
+  backicon: 'backicon_ffa8e781',
+  IdeaNav: 'IdeaNav_ffa8e781',
+  topControlsNav1: 'topControlsNav1_ffa8e781',
+  homediv: 'homediv_ffa8e781',
+  positions: 'positions_ffa8e781',
+  noresult: 'noresult_ffa8e781',
+  container: 'container_ffa8e781',
+  bgcolor: 'bgcolor_ffa8e781',
+  breadcrumb: 'breadcrumb_ffa8e781',
+  searchAlign: 'searchAlign_ffa8e781',
+  nulIdea: 'nulIdea_ffa8e781',
+  mdmargintop: 'mdmargintop_ffa8e781',
+  smleftmargin: 'smleftmargin_ffa8e781',
+  alignment: 'alignment_ffa8e781',
+  sliderParent: 'sliderParent_ffa8e781',
+  sliderimage: 'sliderimage_ffa8e781',
+  slidercontainer: 'slidercontainer_ffa8e781',
+  carddisplay: 'carddisplay_ffa8e781',
+  cardlink: 'cardlink_ffa8e781',
+  carddetails: 'carddetails_ffa8e781',
+  phaseinfo: 'phaseinfo_ffa8e781',
+  nopadding: 'nopadding_ffa8e781',
+  creatorinfo: 'creatorinfo_ffa8e781',
+  slidertext: 'slidertext_ffa8e781',
+  newicon: 'newicon_ffa8e781',
+  row: 'row_ffa8e781',
+  column: 'column_ffa8e781',
+  'ms-Grid': 'ms-Grid_ffa8e781',
+  title: 'title_ffa8e781',
+  subTitle: 'subTitle_ffa8e781',
+  description: 'description_ffa8e781',
+  pauseicon: 'pauseicon_ffa8e781',
+  button: 'button_ffa8e781',
+  label: 'label_ffa8e781'
+};
+
+export default styles;
+/* tslint:enable */

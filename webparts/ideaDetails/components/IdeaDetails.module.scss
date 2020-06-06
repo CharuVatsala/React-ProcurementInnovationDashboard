@@ -1,0 +1,417 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+/* .mainContent{
+  background-color: #333333 !important;
+} */
+
+.ideaDetails {
+  .homediv {
+    min-height: 100vh;
+    background-color: #000;
+    background-image: url(https://sites.ey.com/sites/ProcurementInnovationLab/SiteAssets/ProcurementInnovationLab/Images/DetailsBG.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    /* background-blend-mode: inherit; */
+    background-size: cover;
+
+  }
+
+  .positions {
+    /*  margin-top: 1.5vh; */
+    /* position: absolute; */
+    z-index: 999999;
+  }
+
+  .container {
+    max-width: 700px;
+    margin: 0px auto;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
+  }
+
+  .mdmargintop {
+    margin-left: 2vw;
+  }
+
+  .projectDetails {
+    border-radius: 5px;
+    border: 1px solid white;
+    /*padding: 1vh 0.5vw 1vh 1.5vw;*/
+    margin-left: 2vw;
+    background-color: rgba(59, 59, 58, 0.6);
+    margin-bottom: 1.5vw;
+    height: fit-content;
+  }
+
+  .projectDetailsHeader {
+    font-size: 1vw;
+    padding: 0.5vh 0vw 0vh 1vw;
+    color: #ffe600;
+  }
+
+  .projectDetailsTitle {
+    font-size: 1vw;
+    padding: 0.5vh 0vw 1vh 1vw;
+    color: white;
+  }
+
+  .leftImage {
+    width: 100%;
+    position: relative;
+    margin-top: 0.2vh;
+    background: #ffe600;
+    position: relative;
+    border-bottom: 80px solid black;
+    border-left: 23vw solid #ffe600;
+    min-height: 72vh;
+    display: none;
+  }
+
+  .leftheader {
+    margin-left: -405px;
+    text-transform: uppercase;
+    padding-top: 15px;
+  }
+
+  .leftheader H2 {
+    font-size: 24px;
+    color: black;
+  }
+
+  .leftcontent {
+    margin-left: -405px;
+    color: black;
+    padding-right: 15px;
+    font-size: 0.9vw;
+  }
+  .nopadding {
+    padding: 0px;
+  }
+
+  .ideasection {
+    margin-bottom: 4vh;
+  }
+
+  .statusdone {
+    padding: 5px 0px 5px 12px;
+    color: #fff;
+  }
+
+  .statuscurrent {
+    padding: 5px 0px 5px 12px;
+    color: #ffe600;
+  }
+
+  .statusnotdone {
+    padding: 5px 0px 5px 12px;
+    color: gray;
+  }
+
+  .ideasection fieldset {
+    border-radius: 5px;
+    border: 1px solid #fff;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: rgba(0, 0, 0, 0.7);
+    font-size: 1.2vw;
+  }
+
+  .ideasection legend {
+    border: 1px solid #fff;
+    padding: .5vh .5vw;
+    background: #ffe600;
+    border-radius: 3px;
+    font-size: 2vh;
+    width: 30%;
+    margin-left: 1vw;
+    color: #333333;
+  }
+
+  .statuscheck {
+    float: right;
+    padding-right: 10px;
+  }
+
+  .statusuncheck {
+    float: right;
+    padding-right: 10px;
+  }
+
+  .smmarginleft {
+    margin-left: 1vw;
+  }
+
+  .EditRow {
+    text-align: right;
+    margin-left: 1vw;
+  }
+
+  .accebreadcrumb {
+    font-size: 1.5vw;
+    padding: 2vh 0px;
+    margin-left: 0.1vw;
+    margin-top: 2vh;
+    /* background-color: rgba(0, 0, 0, 0.4); */
+  }
+
+  .accecrumbspan {
+    margin-left: 1.5vw;
+  }
+
+  .accedetails {
+    /* background-color: #2e3348; */
+    padding: 20px;
+  }
+
+  .acceheaderTitle {
+    word-break: break-word;
+    font-size: 1.2vw;
+    width: 100%;
+    color: #ffe600;
+    padding-left: 1vw;
+  }
+
+  .acceheader {
+    font-size: 1.2vw;
+    width: 100%;
+    color: #ffe600;
+    padding-left: 1vw;
+    word-break: break-word;
+  }
+
+  .accecontentDesc {
+    word-break: break-word;
+    font-size: 1.1vw;
+    padding: 0.5vh 2vw 4vh 1vw;
+    color: white;
+  }
+
+  .accecontent {
+    font-size: 1.1vw;
+    padding: 0.5vh 2vw 4vh 1vw;
+    color: white;
+    word-break: break-word;
+  }
+
+  .impactcontent {
+    font-size: 1.2vw;
+    padding: 0.5vh 2vw 4vh 1vw;
+    color: white;
+    margin-left: 1vw;
+  }
+
+  .smmargin {
+    margin-top: 3vh;
+    color: #000;
+    background-color: rgba(46, 46, 45, 0.6);
+    border-right: 2px solid white;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+
+  .fileDisplay {
+    padding-top: 4vh;
+  }
+
+  .docholder {
+    background-color: rgba(46, 46, 45, .6);
+    color: #fff;
+    border: 1px solid grey;
+    padding: 10px;
+    margin-bottom: 8px;
+    margin-top: 5px;
+    font-size: 1.1vw;
+    border-radius: 2px;
+  }
+
+  .emptyholder {
+    background-color: rgba(46, 46, 45, .6);
+    color: grey;
+    border: 1px solid grey;
+    padding: 10px;
+    margin-bottom: 8px;
+    margin-top: 5px;
+    font-size: 1.1vw;
+    border-radius: 2px;
+  }
+
+  .attachmentHeader {
+    font-size: 1.1vw;
+  }
+
+  .profileImage {
+    margin: 1vh 1vw 1vh 1vw;
+    height: 15vh;
+    background-color: #000;
+    border-radius: 1vh;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+  }
+
+  .profileText {
+    font-size: 1.1vw;
+    color: white;
+  }
+
+  .accebreadcrumb SPAN {
+    text-transform: uppercase;
+  }
+
+  .accebreadcrumb a {
+    color: #ffe600;
+  }
+
+  .accebreadcrumb a:hover {
+    color: #ffe600;
+    text-decoration: none;
+  }
+
+  .accecrumbtext {
+    margin: 0vh 0vw 0vh 0vw;
+    color: #ffe600;
+
+  }
+
+  .minheight {
+    min-height: 200px;
+  }
+
+  .acceboxes {
+    padding: 15px;
+    background-color: rgba(28, 28, 34, 1);
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    min-height: 12vh;
+  }
+  .profileText a{
+    color: #ffe600 !important;
+  }
+
+  .options {
+    float: right;
+  }
+
+  .acceindocators {
+    font-size: 16px;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    margin-left: 30px;
+    border-radius: 25px;
+    white-space: pre;
+  }
+
+  .backicon {
+    font-size: 2vw;
+  }
+
+  .editicon {
+    font-size: 2vw;
+    color: #ffe600 !important;
+  }
+
+  .iconcolor {
+    color: #ffe600;
+  }
+  .tcenter{
+    text-align: center;
+  }
+
+  .disableediticon {
+    font-size: 2vw;
+    color: rgba(255, 255, 255, 0.24);
+  }
+
+  .tileimages {
+    background-color: #ffe600;
+    padding: 5px 10px;
+    margin-right: 20px;
+    border-radius: 5px;
+  }
+
+  .acceboxes b {
+    margin-right: 10px;
+  }
+
+  .tileimagesright {
+    background-color: #ffe600;
+    padding: 5px 10px;
+    margin-right: 20px;
+    border-radius: 5px;
+    float: right;
+  }
+
+  .border {
+    border-bottom: 3px dashed #ffe600;
+    width: 5%;
+    padding-top: 10px;
+  }
+
+  .row {
+    @include ms-Grid-row;
+    @include ms-fontColor-white;
+    background-color: $ms-color-themeDark;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+
+  .column {
+    @include ms-Grid-col;
+    @include ms-lg10;
+    @include ms-xl8;
+    @include ms-xlPush2;
+    @include ms-lgPush1;
+  }
+
+  .title {
+    @include ms-font-xl;
+    @include ms-fontColor-white;
+  }
+
+  .subTitle {
+    @include ms-font-l;
+    @include ms-fontColor-white;
+  }
+
+  .description {
+    @include ms-font-l;
+    @include ms-fontColor-white;
+  }
+
+  .button {
+    // Our button
+    text-decoration: none;
+    height: 32px;
+
+    // Primary Button
+    min-width: 80px;
+    background-color: $ms-color-themePrimary;
+    border-color: $ms-color-themePrimary;
+    color: $ms-color-white;
+
+    // Basic Button
+    outline: transparent;
+    position: relative;
+    font-family: "Segoe UI WestEuropean", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: $ms-font-size-m;
+    font-weight: $ms-font-weight-regular;
+    border-width: 0;
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+    padding: 0 16px;
+
+    .label {
+      font-weight: $ms-font-weight-semibold;
+      font-size: $ms-font-size-m;
+      height: 32px;
+      line-height: 32px;
+      margin: 0 4px;
+      vertical-align: top;
+      display: inline-block;
+    }
+  }
+}

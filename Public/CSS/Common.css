@@ -1,0 +1,314 @@
+* {
+  font-family: EyInterstate !important;
+}
+
+/* #SuiteNavPlaceHolder {
+  display: none !important;
+}
+
+.commentsWrapper_9a33dcc2 {
+  display: none !important;
+}
+
+.imageFrame_bec633b3 {
+  display: none;
+}
+
+.mainContent .commentsWrapper {
+  display: none !important;
+} */
+
+#workbenchPageContent,
+.CanvasZone,
+.SPCanvas-canvas {
+  max-width: none;
+}
+
+[class^='emphasisBackground-'] {
+  background-color: transparent !important;
+}
+
+.ControlZone--emphasisBackground,
+.ControlZoneEmphasisBackground,
+.CanvasZoneContainer {
+  background-color: transparent !important;
+}
+
+.headerRow-48,
+div[class^="headerRow"],
+div[class^="spNav"],
+div[class^="footerBar"],
+div[class^="recommendedNewsWrapper"],
+.commandBarWrapper,
+div[class^="pageTitle"],
+div[class^="commentsWrapper"] {
+  display: none !important;
+}
+
+#SuiteNavPlaceHolder {
+  display: none !important;
+}
+
+@font-face {
+  font-family: EyInterstate;
+  src: local('☺'), url('../fonts/EYInterstate-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/EYInterstate-Regular.woff') format('woff'), url('../fonts/EYInterstate-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: EyInterstateLight;
+  src: local('☺'), url('../fonts/EYInterstate-Light.eot?#iefix') format('embedded-opentype'), url('../fonts/EYInterstate-Light.woff') format('woff'), url('../fonts/EYInterstate-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: EyInterstateBold;
+  src: local('☺'), url('../fonts/EYInterstate-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/EYInterstate-Bold.woff') format('woff'), url('../fonts/EYInterstate-Bold.ttf') format('truetype');
+}
+
+.h2title {
+  font-family: EyInterstate;
+  font-size: 20;
+  font-style: normal;
+}
+
+.downloadicon {
+  background-color: #ffe600;
+  padding: 5px;
+  border-radius: 5px;
+  height: 3.5vh;
+  widows: 15vh;
+  cursor: pointer;
+}
+
+.downloadiconlink {
+  background-color: #ffe600;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.trashicon {
+  background-color: #ffe600;
+  padding: 5px;
+  border-radius: 5px;
+  height: 3.5vh;
+  margin-left: 1vw;
+  widows: 15vh;
+  cursor: pointer;
+}
+
+.trashiconlink {
+  background-color: #ffe600;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.fright {
+  float: right;
+}
+
+.dociconlink {
+  margin-right: 10px;
+  width: 30px;
+  height: 30px;
+  background-color: #ffe600;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.docicon {
+  margin-right: 10px;
+  width: 30px;
+  height: 30px;
+}
+
+/*common classes for carousel*/
+
+.slick-next:before, .slick-prev:before {
+  font-size: 36px !important;
+}
+
+.slick-dots:not(.slick-dots-section-theme) li button:before {
+  color: #ffe600 !important;
+  opacity: 0.5;
+  font-size: 12px;
+}
+
+.slick-dots:not(.slick-dots-section-theme) li.slick-active button:before {
+  color: #ffe600 !important;
+  opacity: 1;
+  font-size: 12px;
+}
+
+@media only screen and (max-width: 1900px) and (min-width: 1536px) {
+  .acceactive, .acceinactive {
+    font-size: 12px !important;
+    padding: 8px !important;
+  }
+  .taskopt {
+    font-size: 12px !important;
+    padding: 11px !important;
+  }
+}
+
+.ms-siteLogoAcronym {
+  display: none;
+}
+
+.ms-siteLogoContainerOuterl {
+  display: none;
+}
+
+.ms-HorizontalNavItems {
+  display: none;
+}
+
+.ms-compositeHeader-addnCommands {
+  display: none;
+}
+
+nav.ms-Nav {
+  display: none;
+}
+
+.ms-siteHeader-siteLogo {
+  display: none;
+}
+
+.ms-searchux-searchbox {
+  display: none;
+}
+
+#sp-socialbar {
+  display: none;
+}
+
+.ms-SuiteNav {
+  display: none;
+}
+
+.od-Files-topBar {
+  display: none;
+}
+
+.ms-ProgressIndicator {
+  display: none;
+}
+
+@media only screen and (max-width: 1535px) {
+  .slick-next:before, .slick-prev:before {
+    font-size: 30px !important;
+  }
+  .slick-dots:not(.slick-dots-section-theme) li button:before {
+    color: #ffe600 !important;
+    opacity: 0.5;
+    font-size: 10px;
+  }
+  .slick-dots:not(.slick-dots-section-theme) li.slick-active button:before {
+    color: #ffe600 !important;
+    opacity: 1;
+    font-size: 10px;
+  }
+  .acceactive, .acceinactive {
+    font-size: 11px !important;
+    padding: 6px !important;
+  }
+  .form-control {
+    font-size: 11px !important;
+  }
+  .taskopt {
+    font-size: 11px !important;
+    padding: 9px !important;
+  }
+}
+
+/*for accelerators on premise and cloud */
+
+.acceinactive {
+  font-size: 16px;
+  background-color: white;
+  color: black;
+  padding: 10px;
+  margin-left: 30px;
+  border-radius: 25px;
+  white-space: pre;
+  opacity: 0.25;
+}
+
+.acceactive {
+  font-size: 16px;
+  background-color: white;
+  color: black;
+  padding: 10px;
+  margin-left: 30px;
+  border-radius: 25px;
+  white-space: pre;
+}
+
+.taskopt {
+  text-align: right;
+  border-radius: 25px;
+  background-color: #ffe600;
+  font-size: 16px;
+  color: black;
+  padding: 12px;
+  margin-left: 30px;
+  white-space: pre;
+}
+
+/*Hide OOB Page Contents*/
+
+div[data-automationid='SiteHeader'] {
+  display: none !important;
+}
+
+.fa {
+  font: normal normal normal 20px/1 FontAwesome !important;
+  color: white;
+}
+
+div[class^='pageTitle_'] {
+  display: none !important;
+}
+
+.CanvasZone {
+  max-width: 100% !important;
+  padding: 0px !important;
+  margin: 0px !important;
+}
+
+[dir='ltr'] .CanvasSection-col {
+  padding: 0px !important;
+}
+
+.CanvasZone:not(.CanvasZone--fullWidth) .ControlZone {
+  padding: 0px;
+  margin: 0px !important;
+}
+
+.Canvas {
+  max-width: 100% !important;
+  margin: 0px !important;
+}
+
+.CanvasSection-col {
+  padding: 0px !important;
+}
+
+.CanvasSection--read .ControlZone {
+  margin: 0px !important;
+}
+
+.ControlZone {
+  padding: 0px !important;
+}
+
+.commandBarWrapper {
+  display: none !important;
+}
+
+.commentsWrapper_1fcf10d5 {
+  display: none !important;
+}
+
+div[data-automationid='commentsWrapper'] {
+  display: none !important;
+}
